@@ -3,7 +3,7 @@ hooks:
   post_build: export SOLANO_COVERAGE_PERCENTAGE=80 && echo $SOLANO_COVERAGE_PERCENTAGE
 nodejs: false
 iojs:
-  version: '3.0.0'
+  version: '2.5.0'
 tests:
   - npm run coverage
 test_pattern:
