@@ -6,8 +6,5 @@ iojs:
   version: '3.0.0'
 tests:
   - npm run coverage
-coverage:
-  version: 2
-  enabled: true
 test_pattern:
   - test/**/*_test.js
