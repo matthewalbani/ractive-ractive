@@ -1,0 +1,11 @@
+hooks:
+  pre: npm install
+nodejs:
+  version: '4.4.0'
+tests:
+  - npm test
+coverage:
+  version: 2
+  enabled: true
+test_pattern:
+  - test/**/*_test.js
