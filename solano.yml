@@ -8,3 +8,6 @@ tests:
   - npm run coverage
 test_pattern:
   - test/**/*_test.js
+coverage:
+  version: 2
+  enabled: true
