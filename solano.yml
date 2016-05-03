@@ -1,9 +1,10 @@
 hooks:
   pre: npm install
-nodejs:
-  version: '4.4.0'
+nodejs: false
+iojs:
+  version: '3.0.0'
 tests:
-  - npm test
+  - npm run coverage
 coverage:
   version: 2
   enabled: true
