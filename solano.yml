@@ -1,5 +1,6 @@
 hooks:
   pre: npm install
+  post_build: export SOLANO_COVERAGE_PERCENTAGE=80
 nodejs: false
 iojs:
   version: '3.0.0'
