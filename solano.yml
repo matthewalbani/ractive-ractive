@@ -1,6 +1,6 @@
 hooks:
   pre: npm install
-  post_build: export SOLANO_COVERAGE_PERCENTAGE=80 && echo $SOLANO_COVERAGE_PERCENTAGE
+  post_build: echo'{"coverage_percent": 80}' > .coverage_percent
 nodejs: false
 iojs:
   version: '2.5.0'
