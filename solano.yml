@@ -1,0 +1,13 @@
+hooks:
+  pre: npm install
+  post_build: export SOLANO_COVERAGE_PERCENTAGE=80 && echo $SOLANO_COVERAGE_PERCENTAGE
+nodejs: false
+iojs:
+  version: '2.5.0'
+tests:
+  - npm run coverage
+test_pattern:
+  - test/**/*_test.js
+coverage:
+  version: 2
+  enabled: true
